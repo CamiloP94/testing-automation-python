@@ -47,5 +47,7 @@ testem.log
 Thumbs.db
 
 package-lock.json
-/ms-campaigns
 *.pyc
+/env
+.pytest_cache
+__pycache__
