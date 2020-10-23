@@ -2,3 +2,6 @@ to search for multiple marks we can use : pytest -m "body and engine"
 if i want to select the two marks if I want one or the other i can use :
 pytest -m "body or engine" , if I want to run all except one mark I can use :
 pytest -m "not entertainment"
+when you want to skip a test or expect to fail one ande you want to control it
+you can use the skip and xfail mark . Then you run :
+pytest -m env --env dev -v -rsx (the -rsx is to show the reasons for the skipping and failling)
