@@ -5,3 +5,5 @@ pytest -m "not entertainment"
 when you want to skip a test or expect to fail one ande you want to control it
 you can use the skip and xfail mark . Then you run :
 pytest -m env --env dev -v -rsx (the -rsx is to show the reasons for the skipping and failling)
+- if you want to run the test in parallel you can install pytest-xdist and 
+then when you are going to run de test you just add the parameter -n specifing the numner of threads
